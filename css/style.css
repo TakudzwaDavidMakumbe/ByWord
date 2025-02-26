@@ -30,7 +30,7 @@
     --border-default:  solid 1px rgba(30, 30, 30, 1);
     --bg-color-even: #E8E8E8;
     --bg-color-odd: #F4F4F4;
-    --bg-color-dark: #121212;
+    --bg-color-dark: #000000;
     --body-font-color: #4D5B7C;
     --dark-body-font-color: rgba(255, 255, 255, .75);
     --gray-color:#acacac;
@@ -298,7 +298,7 @@ header.smaller {
 
 
 .dark-scheme header.smaller{
-    background: #121212;
+    background: #fffdfd;
 }
 
 header.smaller .btn-rsvp {
@@ -641,7 +641,7 @@ header .header-col.mid .social-icons {
 }
 
 #mainmenu ul:not(.mega) {
-    box-shadow: 1px 1px 9px rgba(164,164,186,0.3);
+    box-shadow: 1px 1px 9px rgba(222, 222, 226, 0.3);
 }
 
 .dark-scheme #mainmenu ul{
@@ -699,7 +699,9 @@ header .header-col.mid .social-icons {
     display: inline-block;
     padding: 30px;
     text-decoration: none;
-    color: #ffffff;
+    color: #1cb700;
+    
+    font-size: 14px;
     text-align: center;
     outline: none;
 }
@@ -1349,7 +1351,7 @@ section {
 }
 
 #content.zebra section:nth-child(even){ 
-    background: #f6f6f6;
+    background: #3307d3;
 }
 
 section:not(.relative) {}
@@ -1593,7 +1595,7 @@ header.header-mobile .container{
 }
 
 .dark-scheme header.header-mobile{
-     background: #121212;
+     background: #f1eaea;
 }
 
 header.header-mobile.has-topbar .header-row,
@@ -17954,7 +17956,7 @@ img {
     }
 
     header.header-dark.header-mobile #mainmenu li a.menu-item {
-        color: #fff;
+        color: #000000;
     }
 
     header.header-mobile #mainmenu li a.menu-item:after {
@@ -18008,11 +18010,11 @@ img {
     }
 
     .dark-scheme header.header-mobile #mainmenu li a.menu-item {
-        color: #ffffff;
+        color: #000000;
     }
 
     header.header-mobile #mainmenu li a.menu-item:hover {
-        color: #333;
+        color: #000000;
     }
 
     .dark-scheme header.header-mobile #mainmenu li a.menu-item:hover {
@@ -18020,7 +18022,7 @@ img {
     }
 
     header.header-mobile #mainmenu li li a.menu-item:hover {
-        color: #888;
+        color: #000000;
     }
 
     header.header-mobile #mainmenu li ul {
