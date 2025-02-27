@@ -23,15 +23,25 @@
 @import url("../fonts/elegant_font/HTML_CSS/style.css");
 @import url("../fonts/et-line-font/style.css");
 @import url("../fonts/icofont/icofont.min.css");
+@import url("../fonts/Causten-Black.css");  
+
+@font-face {
+    font-family: bold;
+    src: url(../fonts/Causten-Black.ttf);
+}
+.bold {
+    font-family: bold;
+}
+
 
 * {
-    --title-font: "Outfit", Helvetica, Arial, sans-serif;
+    --title-font: "Outfit",bold;
     --body-font: "Inter", Helvetica, Arial, sans-serif;
     --border-default:  solid 1px rgba(30, 30, 30, 1);
     --bg-color-even: #E8E8E8;
     --bg-color-odd: #F4F4F4;
     --bg-color-dark: #000000;
-    --body-font-color: #4D5B7C;
+    --body-font-color: #000000;
     --dark-body-font-color: rgba(255, 255, 255, .75);
     --gray-color:#acacac;
 
@@ -194,7 +204,7 @@ header.header-bg {
 }
 
 header.transparent {
-    background: none;
+    background: #FFF;
 }
 
 body:not(.side-layout) header:not(.smaller):not(.header-mobile).header-light.transparent {
@@ -1351,7 +1361,7 @@ section {
 }
 
 #content.zebra section:nth-child(even){ 
-    background: #3307d3;
+    background: #ffffff;
 }
 
 section:not(.relative) {}
@@ -3599,8 +3609,8 @@ a.btn-sc img{
 a.btn-line,
 a.btn-line:hover{
     background: none;
-    color: #35404e;
-    border: solid 2px rgba(0, 0, 0, .2);
+    color: #ffffff;
+    border: solid 2px rgba(255, 254, 254, 0.2);
 }
 
 
@@ -4057,7 +4067,7 @@ hr {
 }
 
 .text-light select option{
-    color:#031B4E;
+    color:#ffffff;
 }
 
 .form-subscribe {
@@ -4215,8 +4225,8 @@ h6,
 footer.footer-light h5 {
     margin-top: 0;
     font-family: var(--title-font);
-    font-weight: 600;
-    color: #031B4E;
+    font-weight: 900;
+    color: #fefeff;
 }
 
 .dark-scheme h1,
